@@ -1,2 +1,11 @@
 ALL ABOUT GO
 
+1 - Statically Typed Language - declare variable types explicitly
+2 - Strongly Typed Language - cant add integer and string together , compiler 
+                              more thorough checkup of code
+3 - Go is compiled - converts to machine code and produces binary files
+4 - Go is faster
+5 - Fast Compile Time
+6 - Built in Concurrency - no need of special package for parallelism , its in go already Goroutines
+7 - Syntax simplicity
+8 - has garbage collection
