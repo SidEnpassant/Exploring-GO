@@ -13,7 +13,7 @@ import (
 
 // var mutex = sync.Mutex{} // mutex is used to lock the results slice so that only one goroutine can access it at a time
 var readWriteMutex = sync.RWMutex{} // readWriteMutex is used to lock the results slice so that only one goroutine can access it at a time
-var waitGroup = sync.WaitGroup{}
+var waitGroup = sync.WaitGroup{}    // waitGroup is used to wait for all the goroutines to finish before continuing
 var dbData = []string{"id1", "id2", "id3", "id4", "id5"}
 var results = []string{}
 
